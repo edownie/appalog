@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title><%= h(yield(:title) || "architecturenergy") %></title>
+      <%= stylesheet_link_tag 'welcome' %>
+      <%= stylesheet_link_tag 'skin' %>
+      <%= stylesheet_link_tag 'hovertext' %>
+      <%= javascript_include_tag 'jquery-1.4.2.min' %>
+      <%= javascript_include_tag 'jquery-ui-1.8.min'%>
+      <%= yield(:head) %>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <%= render :partial => 'welcome/header' %>
+    <div><%= render :partial => 'welcome/side_left' %></div>
+    <div id="main"><%= yield  %></div>
+    
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-16088905-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+    </body>
+    <% if admin? %>
+      <p><%= button_to 'Logout', :controller => "sessions", :action => "destroy" %><p>
+      <p><%= button_to 'Value', :controller => "value" %></p>
+      <p><%= button_to 'Architecture', :controller => "architecture" %></p>
+      <p><%= button_to 'Ecology', :controller => "ecology" %></p>
+      <p><%= button_to 'Place', :controller => "place" %></p>
+      <%= flash[:notice] %>
+    <% end %>
+</html>

@@ -1,0 +1,9 @@
+<div align="center">
+  <p>
+    <% form_tag sessions_path do %>
+      <label>Password:</label><br/>
+       <%= password_field_tag :password %>
+      <%= submit_tag "Login" %>
+    <% end %>
+  </p>
+</div>

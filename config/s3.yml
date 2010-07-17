@@ -1,0 +1,14 @@
+development:
+  bucket_name: ericdownie_development
+  access_key_id: AKIAIV7AJQFZHIRQXBBA
+  secret_access_key: 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
+
+test:
+  bucket_name: ericdownie_test
+  access_key_id: AKIAIV7AJQFZHIRQXBBA
+  secret_access_key: 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
+
+production:
+  bucket_name: ericdownie
+  access_key_id: AKIAIV7AJQFZHIRQXBBA
+  secret_access_key: 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

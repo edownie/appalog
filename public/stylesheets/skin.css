@@ -1,0 +1,28 @@
+ul.hover_block li{
+	list-style:none;
+	float:left;
+	background: #fff;
+	padding: 10px;
+	width:300px; position: relative;
+	margin-right: 20px;
+	}
+
+ul.hover_block li a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 150px;
+	width: 268px;
+	padding: 16px;
+	color: #000;
+    font: 15px/15px "Monaco";
+}
+
+ul.hover_block li a { text-decoration: none; }
+
+ul.hover_block li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
