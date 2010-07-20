@@ -69,6 +69,6 @@ end
 namespace :db do
   desc "Symlink database.yml into the shared config directory"
   task :symlink do
-    run "ln -nfs #{release_path}/config/database.yml.example #{shared_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
 end
