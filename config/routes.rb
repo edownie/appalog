@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :products
   map.login 'login', :controller => 'sessions', :action => 'new'
   map.logout 'logout', :controller => 'sessions', :action => 'destroy'
-  
+  map.architecture 'architecture', :controller => 'architecture', :action => 'index'  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

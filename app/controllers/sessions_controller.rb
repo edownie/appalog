@@ -7,10 +7,10 @@ class SessionsController < ApplicationController
     session[:password] = params[:password]
     if admin?
       flash[:notice] = "Welcome!"
-      redirect_to root_path
+      redirect_to architecture_path
     else
       flash[:notice] = "Unauthorized access"
-      redirect_to root_path
+      redirect_to new_session_path
     end
   end
 
