@@ -7,7 +7,7 @@ set :keep_releases, 3
 
 set :scm, :git
 
-set :domain, "appalog.richdownie.com"
+set :domain, "architecturenergy.com"
 server domain, :app, :web
 role :db, domain, :primary => true
 
