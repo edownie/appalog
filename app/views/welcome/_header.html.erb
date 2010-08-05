@@ -4,13 +4,14 @@
 <div class="header">
       <table width="95%">
         <tr>
-          <td><div style="position:absolute;left:-310px"><%= link_to '<font size="4"><a style="color:black"><bold>a r c h i t e c t u r e n e r g y</bold></a></font>', root_path %></div></td>
+          <td><div style="display:none;position:absolute;left:-310px"><%= link_to '<font size="4"><a style="color:black"><bold>a r c h i t e c t u r e n e r g y</bold></a></font>', root_path %></div></td>
             
           <span style="display:none">WEBSITE:Cloudroid</span>
-          <td><div style="position:absolute;left:20px;top:90px"><a style="color:tan">studio</a></div></td>
-          <td><div style="position:absolute;left:120px;top:90px"><a style="color:lightgreen">discipline</a></div></td>
-          <td><div style="position:absolute;left:250px;top:90px"><a style="color:lightgrey">process</a></div></td>
-          <td><div style="position:absolute;left:340px;top:90px"><a style="color:orange" >innovation</a></div></td>
+          <td><div style="position:absolute;left:-312px;top:46px"><a style="color:black"><bold>a r c h i t e c t u r e n e r g y</bold></a></div></td>
+          <td><div style="position:absolute;left:20px;top:90px"><a style="color:tan">sustainable</a></div></td>
+          <td><div style="position:absolute;left:170px;top:90px"><a style="color:lightgreen">design</a></div></td>
+          <td><div style="position:absolute;left:280px;top:90px"><a style="color:lightgrey">perspective</a></div></td>
+          <td><div style="position:absolute;left:340px;top:90px"><a style="display:none;color:orange" ></a></div></td>
           <td><div id="tweets">   
            <% @tweets.each do |tweet| %>
            <%= tweet.description %><br/>
