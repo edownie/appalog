@@ -1,8 +1,8 @@
 .header {
 	background: #333333;
 	position:absolute;left:400px;top:8px;width:500px;
-	padding:10px;
-	border: 3px solid;
+	padding:5px;
+	border: display:none;3px solid;
 	border-color: #008000;
 	font: 20px/20px "Monaco";
 	color: #FFFFFF;
