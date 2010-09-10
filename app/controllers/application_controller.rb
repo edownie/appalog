@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
   protected
   
   def pull_tweets
-    @tweets = Tweet.first
+    @tweet = Tweet.first
   end
   
   def authorize
