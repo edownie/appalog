@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   def new
-    @tweets = Tweet.find(:all, :limit => 1, :order => 'tweeted_at DESC')
+    @tweets = Tweet.first
   end
   
   def create
