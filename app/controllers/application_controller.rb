@@ -6,8 +6,13 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   # require 'lightbox_view_helper'
   helper_method :admin?
+  before_filter :pull_tweets
   
   protected
+  
+  def pull_tweets
+    @tweets = Tweet.first
+  end
   
   def authorize
     unless admin?

@@ -1,7 +1,4 @@
 class SessionsController < ApplicationController
-  def new
-    @tweets = Tweet.first
-  end
   
   def create
     session[:password] = params[:password]
