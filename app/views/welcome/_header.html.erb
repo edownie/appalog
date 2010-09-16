@@ -13,10 +13,8 @@
           <td><div style="position:absolute;left:325px;top:90px"><a style="color:lightgrey">perspective</a></div></td>
           <td><div style="position:absolute;left:430px;top:90px"><a style="color:orange" ></a></div></td>
           <td><div id="tweets">   
-           <% @tweets.each do |tweet| %>
-           <%= tweet.description %><br/>
-           (<small><%= tweet.tweeted_at %></small>)
-           <% end %>
+           <%= @tweet.description %><br/>
+           (<small><%= @tweet.tweeted_at %></small>)
 
           
           

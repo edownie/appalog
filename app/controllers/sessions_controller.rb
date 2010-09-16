@@ -1,7 +1,4 @@
 class SessionsController < ApplicationController
-  def new
-    @tweets = Tweet.find(:all, :limit => 1, :order => 'tweeted_at DESC')
-  end
   
   def create
     session[:password] = params[:password]
