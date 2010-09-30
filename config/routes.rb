@@ -4,6 +4,9 @@ ActionController::Routing::Routes.draw do |map|
   map.login 'login', :controller => 'sessions', :action => 'new'
   map.logout 'logout', :controller => 'sessions', :action => 'destroy'
   map.architecture 'architecture', :controller => 'architecture', :action => 'index'  
+  map.value 'value', :controller => 'value', :action => 'index'
+  map.place 'place', :controller => 'place', :action => 'index'  
+  map.ecology 'ecology', :controller => 'ecology', :action => 'index'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

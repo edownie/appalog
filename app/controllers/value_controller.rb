@@ -1,4 +1,4 @@
 class ValueController < ApplicationController
-  before_filter :authorize
+  # before_filter :authorize
 
 end

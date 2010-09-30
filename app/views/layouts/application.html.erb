@@ -24,12 +24,5 @@
     pageTracker._trackPageview();
     } catch(err) {}</script>
     </body>
-    <% if admin? %>
-      <p><%= button_to 'Logout', :controller => "sessions", :action => "destroy" %><p>
-      <p><%= button_to 'Value', :controller => "value" %></p>
-      <p><%= button_to 'Architecture', :controller => "architecture" %></p>
-      <p><%= button_to 'Ecology', :controller => "ecology" %></p>
-      <p><%= button_to 'Place', :controller => "place" %></p>
-      <%= flash[:notice] %>
-    <% end %>
+
 </html>
