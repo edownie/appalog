@@ -49,3 +49,41 @@ div#twitter a:visited {
 div#subposition1 {
 	display: none;
 }
+
+div#val {
+	background: white;
+	position:absolute;left:220px;top:100px;width:210px;
+	padding: 1px;
+	text-align: center;
+	font: 20px/20px "Monaco";
+}
+
+div#val {
+	text-decoration: none;
+	color: "tan";
+	margin-left: 10em;
+}
+
+div#arc {
+	background: white;
+	position:absolute;left:520px;top:125px;width:270px;
+	padding: 1px;
+	text-align: center;
+	font: 20px/20px "Monaco";
+}
+
+div#eco {
+	background: white;
+	position:absolute;left:670px;top:100px;width:250px;
+	padding: 1px;
+	text-align: center;
+	font: 20px/20px "Monaco";
+}
+
+div#pla {
+	background: white;
+	position:absolute;left:595px;top:150px;width:300px;
+	padding: 1px;
+	text-align: center;
+	font: 20px/20px "Monaco";
+}
