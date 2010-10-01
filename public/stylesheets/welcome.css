@@ -56,12 +56,16 @@ div#val {
 	padding: 1px;
 	text-align: center;
 	font: 20px/20px "Monaco";
+	margin-left: 10em;
 }
 
-div#val {
+div#val a:link {
 	text-decoration: none;
-	color: "tan";
-	margin-left: 10em;
+	color: #CC9900;
+}
+div#val a:visited {
+	text-decoration: none;
+	color: #CC9900;
 }
 
 div#arc {
@@ -72,6 +76,15 @@ div#arc {
 	font: 20px/20px "Monaco";
 }
 
+div#arc a:link {
+	text-decoration: none;
+	color: #99CC66;
+}
+div#arc a:visited {
+	text-decoration: none;
+	color: #33cc66;
+}
+
 div#eco {
 	background: white;
 	position:absolute;left:670px;top:100px;width:250px;
@@ -80,10 +93,28 @@ div#eco {
 	font: 20px/20px "Monaco";
 }
 
+div#eco a:link {
+	text-decoration: none;
+	color: #C0C0C0;
+}
+div#eco a:visited {
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
 div#pla {
 	background: white;
 	position:absolute;left:595px;top:150px;width:300px;
 	padding: 1px;
 	text-align: center;
 	font: 20px/20px "Monaco";
+}
+
+div#pla a:link {
+	text-decoration: none;
+	color: #FF9900;
+}
+div#pla a:visited {
+	text-decoration: none;
+	color: #FF9900;
 }
