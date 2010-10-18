@@ -63,7 +63,7 @@ div#subposition1 {
 
 div#val {
 	background: white;
-	position:absolute;left:220px;top:100px;width:210px;
+	position:absolute;left:230px;top:100px;width:160px;
 	padding: 1px;
 	text-align: center;
 	font: 20px/20px "Monaco";
@@ -81,7 +81,7 @@ div#val a:visited {
 
 div#arc {
 	background: white;
-	position:absolute;left:520px;top:125px;width:270px;
+	position:absolute;left:500px;top:125px;width:270px;
 	padding: 1px;
 	text-align: center;
 	font: 20px/20px "Monaco";
