@@ -21,6 +21,17 @@
 
 .header_fill {
 	background: #333333;
+	position:absolute;left:400px;top:35px;width:480px;
+	padding:15px;
+	border: display:none;3px solid;
+	border-color: #008000;
+	font: 20px/20px "Monaco";
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.header_fill {
+	background: #333333;
 	position:absolute;left:400px;top:65px;width:480px;
 	padding:15px;
 	border: display:none;3px solid;
