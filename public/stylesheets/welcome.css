@@ -1,11 +1,11 @@
 .header {
-	background: #333333;
-	position:absolute;left:400px;top:8px;width:500px;
-	padding:5px;
+	background: none;
+	position:absolute;left:280px;top:8px;width:50px;
+	padding:50px;
 	border: display:none;3px solid;
 	border-color: #008000;
 	font: 20px/20px "Monaco";
-	color: #FFFFFF;
+	color: #E0E0E0;
 	text-align: left;
 }
 
@@ -21,8 +21,8 @@
 
 .header_fill {
 	background: #333333;
-	position:absolute;left:400px;top:35px;width:480px;
-	padding:15px;
+	position:absolute;left:400px;top:35px;width:420px;
+	padding:25px;
 	border: display:none;3px solid;
 	border-color: #008000;
 	font: 20px/20px "Monaco";
@@ -32,7 +32,7 @@
 
 .header_fill {
 	background: #333333;
-	position:absolute;left:400px;top:65px;width:480px;
+	display:none;position:absolute;left:400px;top:65px;width:480px;
 	padding:15px;
 	border: display:none;3px solid;
 	border-color: #008000;
@@ -47,7 +47,7 @@
 }
 
 div#tweets {
-	background: #333333;
+	background: #233000;
 	padding: 2em;
 	text-align: right;
 	font: 10px/10px "Monaco";
@@ -56,7 +56,7 @@ div#tweets {
 div#twitter {
 	text-decoration: none;
 	color: #282828;
-	margin-left: 30em;
+	margin-left: 5px;
 }
 
 div#twitter a:link {
@@ -73,70 +73,70 @@ div#subposition1 {
 }
 
 div#val {
-	background: white;
-	position:absolute;left:230px;top:100px;width:160px;
+	background: none;
+	position:absolute;left:100px;top:80px;width:160px;
 	padding: 1px;
 	text-align: center;
-	font: 20px/20px "Monaco";
-	margin-left: 10em;
+	font: 15px/15px "arial";
+	margin-left: 1em;
 }
 
 div#val a:link {
 	text-decoration: none;
-	color: #CC9900;
+	color: darkblue;
 }
 div#val a:visited {
 	text-decoration: none;
-	color: #CC9900;
+	color: darkblue;
 }
 
 div#arc {
-	background: white;
-	position:absolute;left:500px;top:125px;width:270px;
+	background: E0E0E0;
+	position:absolute;left:210px;top:80px;width:270px;
 	padding: 1px;
 	text-align: center;
-	font: 20px/20px "Monaco";
+	font: 15px/15px "arial";
 }
 
 div#arc a:link {
 	text-decoration: none;
-	color: #99CC66;
+	color: darkgreen;
 }
 div#arc a:visited {
 	text-decoration: none;
-	color: #33cc66;
+	color: darkgreen;
 }
 
 div#eco {
-	background: white;
-	position:absolute;left:670px;top:100px;width:250px;
+	background: none;
+	position:absolute;left:395px;top:80px;width:250px;
 	padding: 1px;
 	text-align: center;
-	font: 20px/20px "Monaco";
+	font: 15px/15px "arial";
 }
 
 div#eco a:link {
 	text-decoration: none;
-	color: #C0C0C0;
+	color: black;
 }
 div#eco a:visited {
 	text-decoration: none;
-	color: #C0C0C0;
+	color: black;
 }
 
 div#pla {
-	background: white;
-	position:absolute;left:595px;top:150px;width:300px;
+	background: E0E0E0;
+	position:absolute;left:540px;top:80px;width:300px;
 	padding: 1px;
 	text-align: center;
-	font: 20px/20px "Monaco";
+	font: 15px/15px "arial";
 }
 
 div#pla a:link {
 	text-decoration: none;
-	color: #FF9900;
+	color: darkred;
 }
 div#pla a:visited {
 	text-decoration: none;
-	color: #FF9900;
+	color: darkred;
 }
