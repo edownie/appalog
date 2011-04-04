@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :sessions
   map.resources :products
+  map.directory 'directory', :controller => 'directory', :action => 'index'  
   map.login 'login', :controller => 'sessions', :action => 'new' 
   map.logout 'logout', :controller => 'sessions', :action => 'destroy'
   map.architecture 'architecture', :controller => 'architecture', :action => 'index'  
