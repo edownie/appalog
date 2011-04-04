@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :sessions
   map.resources :products
-  map.login 'login', :controller => 'sessions', :action => 'new'
+  map.login 'login', :controller => 'sessions', :action => 'new' 
   map.logout 'logout', :controller => 'sessions', :action => 'destroy'
   map.architecture 'architecture', :controller => 'architecture', :action => 'index'  
   map.value 'value', :controller => 'value', :action => 'index'
