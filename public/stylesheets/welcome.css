@@ -1,7 +1,7 @@
 .header {
 	background: none;
 	position:absolute;left:280px;top:8px;width:50px;
-	padding:50px;
+	padding:1px;
 	border: display:none;3px solid;
 	border-color: #008000;
 	font: 20px/20px "Monaco";
@@ -31,11 +31,18 @@
 }
 
 .header_fill {
-	background: #333333;
-	display:none;position:absolute;left:400px;top:65px;width:480px;
+	background: #C0C0C0;
+	width:770px;height: 30px;
 	padding:15px;
-	border: display:none;3px solid;
-	border-color: #008000;
+	font: 20px/20px "Monaco";
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.hpage_fill {
+	background: #8FBC8F;
+	width:770px;height: 90px;
+	padding:15px;
 	font: 20px/20px "Monaco";
 	color: #FFFFFF;
 	text-align: left;
@@ -48,9 +55,10 @@
 
 div#tweets {
 	background: #233000;
+	width:740px;
 	padding: 2em;
 	text-align: right;
-	font: 10px/10px "Monaco";
+	font: 15px/15px "Monaco";
 }
 
 div#twitter {
