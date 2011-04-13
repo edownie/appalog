@@ -1,0 +1,2 @@
+class RcController < ApplicationController
+end
