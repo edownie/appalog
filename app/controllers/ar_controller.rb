@@ -1,0 +1,2 @@
+class ArController < ApplicationController
+end
