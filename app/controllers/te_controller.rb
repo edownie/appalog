@@ -1,0 +1,2 @@
+class TeController < ApplicationController
+end
