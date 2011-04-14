@@ -1,0 +1,2 @@
+class TuController < ApplicationController
+end
