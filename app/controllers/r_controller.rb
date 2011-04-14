@@ -1,0 +1,2 @@
+class RController < ApplicationController
+end
