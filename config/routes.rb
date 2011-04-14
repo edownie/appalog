@@ -1,6 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :sessions
   map.resources :products
+  map.ec 'ec', :controller => 'ec', :action => 'index'        
+  map.te 'te', :controller => 'te', :action => 'index'        
+  map.i 'i', :controller => 'i', :action => 'index'        
   map.h 'h', :controller => 'h', :action => 'index'        
   map.a 'a', :controller => 'a', :action => 'index'        
   map.rc 'rc', :controller => 'rc', :action => 'index'      
