@@ -1,0 +1,2 @@
+class YController < ApplicationController
+end
