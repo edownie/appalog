@@ -1,0 +1,2 @@
+class EController < ApplicationController
+end
