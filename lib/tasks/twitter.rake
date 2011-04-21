@@ -3,7 +3,7 @@ task :fetch_tweets => :environment do
   require 'open-uri'
   require 'nokogiri'
     Tweet.destroy_all
-    doc = Nokogiri::HTML(open("http://twitter.com/cloudalog"))
+    doc = Nokogiri::HTML(open("http://twitter.com/gridlaborate"))
     doc.css('.status-body').each do |item|
      description = item.at_css(".entry-content")
      tweeted_at = item.at_css(".entry-date")
