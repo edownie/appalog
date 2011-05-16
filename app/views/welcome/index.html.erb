@@ -1,10 +1,10 @@
 
 
-  <%= render :partial => 'welcome/header' %>
 
 <div><%= render :partial => 'welcome/side_left' %></div>
 
-  
+  <%= render :partial => 'welcome/header' %>
+
 
 <p style="font-family:arial;font-size:10px;position:absolute;left:120px;top:365px;color:#C0C0C0">D I S C L A I M E R : &nbsp A t &nbsp l a s t &nbsp c h e c k &nbsp t h e &nbsp t r a c k i n g &nbsp s e r v i c e &nbsp f o r &nbsp t h i s &nbsp s i t e &nbsp c o u l d n ' t &nbsp p r e d i c t &nbsp y o u r &nbsp v i s i t .</p>
 
@@ -17,3 +17,12 @@
 
 
 <%= render :partial => 'terms' %>
+
+<div class="header">
+    <td><div style="position:absolute;left:-230px;top:520px;font-family:arial" id="tweets">   
+      <%= @tweet.description %><br/>
+      (<small><%= @tweet.tweeted_at %></small>)</div>
+    </td>
+    <td><i><a style="position:absolute;left:-80px;top:580px;font-family:arial" href="http://twitter.com/gridlaborate" target="_blank">TWITTER</a></i></td>
+    </tr>
+</div>
