@@ -1,7 +1,15 @@
 ActionController::Routing::Routes.draw do |map|
+
   map.resources :sessions
   map.resources :products
-  map.y 'y', :controller => 'y', :action => 'index'        
+  map.services 'services', :controller => 'services', :action => 'index'
+
+  map.y 'y', :controller => 'y', :action => 'index'      
+  map.commercial 'commercial', :controller => 'commercial', :action => 'index'      
+  map.church 'church', :controller => 'church', :action => 'index'      
+  map.education 'education', :controller => 'education', :action => 'index'      
+  map.infravironment 'infravironment', :controller => 'infravironment', :action => 'index'      
+  map.projects 'projects', :controller => 'projects', :action => 'index'      
   map.rg 'rg', :controller => 'rg', :action => 'index'        
   map.r 'r', :controller => 'r', :action => 'index'        
   map.ne 'ne', :controller => 'ne', :action => 'index'        
